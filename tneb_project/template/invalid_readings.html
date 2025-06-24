@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invalid Reading</title>
+    <style>
+        body {
+            background-color: #d1ecf1;
+            color: #0c5460;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 60px;
+        }
+
+        .error-box {
+            background-color: #bee5eb;
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0c5460;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        a:hover {
+            background-color: #093d47;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-box">
+        <h2>Invalid Reading Values</h2>
+        <p>Current reading cannot be less than previous reading.</p>
+        <a href="/home/">Re-enter Details</a>
+    </div>
+</body>
+</html>
